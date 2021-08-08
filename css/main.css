@@ -1,0 +1,414 @@
+/****** BASE STYLES ******/
+html {
+font-size: 16px;
+}
+body {
+font-family: 'Roboto', sans-serif;
+font-color:#fff;
+background:#1f202b;
+font-size: 1em;
+}
+
+header h2 {
+    font-size:1em;
+    color:#ffffff;
+    margin:auto;
+}
+
+h3 {
+    font-size:1.5em;
+    font-weight: bold;
+    color:#ffffff;
+    margin:0px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    font-size:1.5em;
+    margin-bottom: 3px;
+    color:#ffffff;
+    font-weight: normal;
+    padding: 10px;
+}
+h3 {
+    font-size:1.5em;
+    font-weight: bold;
+    color:#ffffff;
+    margin: 0px;
+}
+h2 {
+    font-size:2.25em;
+    color:#fa0075;
+    margin:15px;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+
+
+header h1  {
+  color:#fff;
+  font-size:1.5em;
+  font-family: 'Source Code Pro', monospace;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding:0px;
+}
+header h1 span {
+    color:#fa0075;
+    clear:both;
+    }
+header.half-width{
+  height: 85px;
+}
+
+
+
+/***** NAVBAR *******/
+
+
+  nav ul {
+  list-style: none;
+  background-color:#1f202b;
+  margin:0px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+
+}
+ nav  {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-flow: row wrap;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  text-transform: lowercase;
+  text-align:center;
+  font-size:1em;
+  padding:15px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+/****** GRID ******/
+
+      .full-width {
+          width:100%;
+          margin: 0 auto;
+          overflow: auto;
+
+        }
+
+
+
+
+
+
+      .half-width {
+          padding-top: 20px;
+          font-family: 'Montserrat', sans-serif;
+          width: 100%;
+      }
+
+
+
+      .third-width {
+          width: 380px;
+          float: left;
+          overflow: auto;
+
+}
+
+
+
+    #portfolio img   {
+    box-sizing: border-box;
+    border: 1px groove;
+    color: #b7b7b7;
+    padding: 30px;
+    display: flex;
+    justify-content:center;
+    flex-flow: row wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 362px;
+
+    }
+    #portfolio .one {
+      height: 110px;
+    }
+
+    .little   {
+        height: 400px;
+        box-sizing: border-box;
+        padding: 0px 100px 0px 100px;
+
+    }
+    .left    {
+        padding-right: 50px;
+        text-align: right;
+    }
+    .right{
+        padding-left: 50px;
+    }
+
+    #backpic {
+    background:url('../img/hero-background.png');
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:200px;
+    width: 100%;
+    }
+
+    #portfolio h3 {
+      line-height: 24px;
+    }
+    #portfolio h2 {
+      padding-top: 20px;
+      font-size: 2.25em;
+    }
+    /*********about me******/
+
+  #about  {
+      background:url('../img/about-me.png');
+      background-size:cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+
+           }
+  #about p {
+      color:#1f202b;
+      font-size:1.25em;
+      font-family: 'Montserrat', sans-serif;
+      }
+  #about h2 {
+    padding-top: 30px;
+    font-size: 2.25em;
+    font-family: 'Source Code Pro', monospace;
+       }
+
+
+        /******contact****/
+
+  #contact.full-width{
+    padding: 115px ;
+    text-align:center;
+    }
+    #contact.third-width h3{
+        text-align:center;
+              }
+#contact h2  {
+     color:#fa0075;
+      font-family: 'Source Code Pro';
+      font-size: 2.25em;
+      text-align: center;
+      display: block;
+      padding-top:40px;
+      font-family: 'Source Code Pro', monospace;
+
+}
+#contact h3 {
+    color: #ffffff;
+    font-size:1.5em;
+    line-height:15px;
+    width:100%;
+    margin: 40px auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+p  {
+    color:white;
+    font-size:1.5em;
+    font-weight: normal;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+h4 {
+    color: #ffffff;
+    font-size: 1.125em;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+
+}
+#contact  p  {
+  font-size:1.25em;
+  text-align: center;
+  line-height:20px;
+  padding: 0 50px;
+  margin: 10px;
+
+}
+
+#contact  li {
+display:inline-block;
+padding: 10px;
+line-height:10px;
+text-align: center;
+}
+
+#contact img {
+ height:40px;
+ border-radius: 50%;
+ align-items: center;
+ justify-content: center;
+ background-color: #1f202b;
+ font-size: 1.875em;
+}
+#contact ul {
+ display: flex;
+ justify-content:space-around;
+ padding: 0px;
+}
+footer {
+ flex-direction: column;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+/*Tablet styles here*/
+header    {
+      flex-flow: row wrap;
+      justify-content: space-between;
+    }
+
+header h1    {
+    font-size: 4.5em;
+          }
+
+    .full-width   {
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: row wrap;
+        width: 100%;
+      }
+      .half-width {
+        display: flex;
+        flex-flow: row wrap;
+        width:50%;
+      }
+
+      .full-width-container   {
+          justify-content: space-between;
+          align-items: center;
+          width:100%;
+       }
+
+
+     /**********navbar*******/
+
+    .full-width-nav  {
+      display: flex;
+     flex-flow: row wrap;
+     justify-content: space-between;
+     width:100%;
+  }
+  nav ul   {
+   flex-flow: row wrap;
+   display: flex;
+}
+nav a   {
+ font-size: 2em;
+}
+header h2   {
+ font-size: 1.875em;
+}
+
+#backpic {
+background:url('../img/hero-background.png');
+height:750px;
+}
+
+/*******portfolio********/
+.full-width-1   {
+ display: flex;
+}
+.full-width-2  {
+ display: flex;
+}
+.full-width-3   {
+ display: flex;
+ justify-content:space-between;
+ align-items: center;
+}
+
+
+
+
+  #contact .third-width {
+  width:33%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+       }
+       #contact p {
+       padding: 0px;
+            }
+
+
+
+
+  footer   {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction:row;
+  }
+
+}
+@media only screen and (min-width: 1200px) {
+/*Desktop styles here*/
+
+.full-width-3   {
+ display: flex;
+ align-items: center;
+ flex-flow: row;
+}
+#portfolio   {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: center;
+}
+.full-width-container   {
+    display: flex;
+    flex-flow: row wrap;
+ }
+ .half-width-jubilee-right{
+ display: flex;
+ flex-flow:column;
+ width: 100%;
+
+ }
+ .half-width{
+ display: flex;
+}
+#aboutme{
+display: flex;
+flex-flow: column;
+width: 50%;
+padding-left:3%;
+}
+
+
+ }
