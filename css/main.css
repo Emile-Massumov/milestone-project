@@ -64,6 +64,10 @@ header h1 span {
 header.half-width{
   height: 85px;
 }
+.message p{
+  font-size: 0.70em;
+
+}
 
 
 
@@ -295,6 +299,10 @@ header h1    {
     font-size: 4.5em;
           }
 
+.message p{
+   font-size:1em;
+          }
+
     .full-width   {
         justify-content: space-between;
         align-items: center;
@@ -378,6 +386,10 @@ height:750px;
 }
 @media only screen and (min-width: 1200px) {
 /*Desktop styles here*/
+
+.message p{
+   font-size:2em;
+          }
 
 .full-width-3   {
  display: flex;
