@@ -446,8 +446,17 @@ padding-left:3%;
 #skills figure img {
   height: 75px;
 }
- 
-  
-  
+/****contact****/
+#contact li:before {
+transform: scale(0.9);
+transition: all .5s ease-in;
+content: "";
+position: absolute;
+background: greenyellow;
+
+}
+#contact li:hover:before {
+  transform:rotate(350deg);
+}
 
  }
