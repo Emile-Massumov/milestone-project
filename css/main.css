@@ -4,7 +4,7 @@ font-size: 16px;
 }
 body {
 font-family: 'Roboto', sans-serif;
-font-color:#fff;
+color:#fff;
 background:#1f202b;
 font-size: 1em;
 }
@@ -108,22 +108,14 @@ nav a {
           width:100%;
           margin: 0 auto;
           overflow: auto;
+  
 
         }
-
-
-
-
-
-
       .half-width {
           padding-top: 20px;
           font-family: 'Montserrat', sans-serif;
-          width: 100%;
+      
       }
-
-
-
       .third-width {
           width: 380px;
           float: left;
@@ -131,7 +123,12 @@ nav a {
 
 }
 
-
+     #portfolio {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-flow: row wrap;
+     }
 
     #portfolio img   {
     box-sizing: border-box;
@@ -207,6 +204,11 @@ nav a {
     font-size: 2.25em;
     font-family: 'Source Code Pro', monospace;
        }
+       img {
+       width: 100%;  
+       border-radius: 5px;
+       
+       }
 /****skills******/
 #skills {
   display: flex;
@@ -278,14 +280,16 @@ h4 {
   line-height:20px;
   padding: 0 50px;
   margin: 10px;
+ 
+  }
 
-}
 
 #contact  li {
 display:inline-block;
 padding: 10px;
 line-height:10px;
 text-align: center;
+
 }
 
 #contact img {
@@ -300,6 +304,7 @@ text-align: center;
  display: flex;
  justify-content:space-around;
  padding: 0px;
+ 
 }
 footer {
  flex-direction: column;
@@ -325,15 +330,18 @@ header h1    {
           }
 
     .full-width   {
-        justify-content: space-between;
+      
+        justify-content: center;
         align-items: center;
         flex-flow: row wrap;
         width: 100%;
+       
       }
       .half-width {
         display: flex;
         flex-flow: row wrap;
-        width:50%;
+        width: 50%;
+      
       }
 
       .full-width-container   {
@@ -346,14 +354,19 @@ header h1    {
      /**********navbar*******/
 
     .full-width-nav  {
-      display: flex;
+    display: flex;
      flex-flow: row wrap;
      justify-content: space-between;
      width:100%;
   }
+  nav {
+    justify-content: center;
+  }
   nav ul   {
    flex-flow: row wrap;
    display: flex;
+   text-align: center;
+
 }
 nav a   {
  font-size: 2em;
@@ -379,7 +392,10 @@ height:750px;
  justify-content:space-between;
  align-items: center;
 }
-/****skills***/
+/****about***/
+#aboutme{
+ background:#fa0075;
+  }
 
 
 
@@ -422,6 +438,7 @@ height:750px;
     flex-flow: row wrap;
     justify-content:center;
     align-items: center;
+    padding: 40px;
 }
 .full-width-container   {
     display: flex;
@@ -441,22 +458,18 @@ display: flex;
 flex-flow: column;
 width: 50%;
 padding-left:3%;
+background:#fa0075;
+justify-content: space-between;
+
+}
+#profile-pic{
+  width: 50%;
 }
 /***skills****/
 #skills figure img {
   height: 75px;
 }
 /****contact****/
-#contact li:before {
-transform: scale(0.9);
-transition: all .5s ease-in;
-content: "";
-position: absolute;
-background: greenyellow;
 
-}
-#contact li:hover:before {
-  transform:rotate(350deg);
-}
 
  }
