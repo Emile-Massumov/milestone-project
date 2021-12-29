@@ -122,12 +122,14 @@ nav a {
           overflow: auto;
 
 }
-
+     
      #portfolio {
        display: flex;
        justify-content: center;
        align-items: center;
        flex-flow: row wrap;
+       margin-left: 20px;
+       margin-right: 20px;
      }
 
     #portfolio img   {
@@ -280,8 +282,13 @@ h4 {
   line-height:20px;
   padding: 0 50px;
   margin: 10px;
- 
+ }
+
+  #contact a {
+  color: #fff;
+  text-decoration: none;
   }
+  
 
 
 #contact  li {
