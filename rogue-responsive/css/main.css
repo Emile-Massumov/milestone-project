@@ -16,6 +16,19 @@ html {
   font-size: 1em;
   line-height: 1.4;
 }
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: wrap;
+  width: 90%;
+}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -87,51 +100,32 @@ textarea {
    Author's custom styles
    ========================================================================== */
 header {
-  padding: 15px 0px;
-}
-header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin: 0px;
   width: 100%;
 }
+
 header h1 {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 header nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-flow: row wrap;
-  width: 100%;
+  padding: 46px 0px;
   
 }
 header nav ul {
-  display: flex;
-  justify-content: space-around;
-  flex-flow: row wrap;
-  width: 100%;
-  padding-left: 0px;
+  padding: 0px;
+  margin: 0px;
 }
-.hero-area img {
-  display: flex;
-  justify-content:center;
-  flex-flow: row wrap;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100%;
-  color: #fff;
-}
-section {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-flow: row wrap;
+header nav ul li {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.875em;
+  padding: 10px 0px;
+  list-style: none;
 }
 
 ul {
@@ -145,6 +139,19 @@ ul {
   width: 100%;
   margin: 15px;
 }
+.hero-image img {
+  width: 100%;
+}
+.main-title h2 {
+  text-align: left;
+  padding: 5px 0px;
+}
+.main-title p {
+  font-size: 1em;
+  padding:0px;
+  line-height: 1.5625;
+}
+
 .ingredients {
   display: flex;
   justify-content:center;
