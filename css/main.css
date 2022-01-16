@@ -493,6 +493,10 @@ justify-content: space-between;
   display: inline;
 }
 .half-width {
-  width: 50%;
+  width: 25%;
+}
+.full-width-1 {
+margin-left: 60px;
+margin-right: 100px;
 }
 }  
