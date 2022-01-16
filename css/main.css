@@ -454,8 +454,8 @@ height:750px;
     justify-content:center;
     align-items: center;
     padding: 40px;
-    
-}
+    }
+
 
 .full-width-container   {
   display: flex;
@@ -464,7 +464,8 @@ height:750px;
  
  .half-width-jubilee-right {
  display: flex;
- flex-flow:column;
+ flex-flow:row wrap;
+ align-items: center;
  width: 100%;
 }
  
@@ -490,28 +491,3 @@ justify-content: space-between;
 }
 
 }
-@media only screen and (min-width: 1900px) {
-  /*Desktop styles here*/
-#portfolio {
-  justify-content: space-between;
-  width: 100%;
-  display: inline;
-}
-.half-width {
-  width: 25%;
-}
-.full-width-1 {
-margin-left: 60px;
-margin-right: 100px;
-}
-.full-width-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-#backpic  { 
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-} 
-} 
