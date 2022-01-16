@@ -449,6 +449,7 @@ height:750px;
     justify-content:center;
     align-items: center;
     padding: 40px;
+    
 }
 
 .full-width-container   {
@@ -482,4 +483,16 @@ justify-content: space-between;
 #skills figure img {
   height: 75px;
 }
+
 }
+@media only screen and (min-width: 1900px) {
+  /*Desktop styles here*/
+#portfolio {
+  justify-content: space-between;
+  width: 100%;
+  display: inline;
+}
+.half-width {
+  width: 50%;
+}
+}  
