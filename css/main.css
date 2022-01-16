@@ -499,4 +499,14 @@ justify-content: space-between;
 margin-left: 60px;
 margin-right: 100px;
 }
-}  
+.full-width-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#backpic  { 
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+} 
+} 
