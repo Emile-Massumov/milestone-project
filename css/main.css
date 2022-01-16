@@ -96,6 +96,7 @@ nav a {
   font-family: 'Montserrat', sans-serif;
 
 }
+
 /****** GRID ******/
 
 .full-width {
@@ -126,7 +127,7 @@ nav a {
 
     #portfolio img   {
     box-sizing: border-box;
-    border: 1px groove;
+    border: 2px groove;
     color: #b7b7b7;
     padding: 30px;
     display: flex;
@@ -236,6 +237,10 @@ nav a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  }
+
+  #profile-pic {
+    border:2px solid #fff;
   }
 
  /******contact****/
