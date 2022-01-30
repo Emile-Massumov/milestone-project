@@ -4,21 +4,21 @@ font-size: 16px;
 }
 body {
 font-family: 'Roboto', sans-serif;
-color:#fff;
-background:#1f202b;
+color:var(--primery-color);
+background:var(--secondary-color);
 font-size: 1em;
 }
 
 header h2 {
 font-size:1em;
-color:#ffffff;
+color:var(--primary-color);
 margin:auto;
 }
 
 h3 {
 font-size:1.5em;
 font-weight: bold;
-color:#ffffff;
+color:var(--primary-color);
 margin:0px;
 padding: 10px;
 font-family: 'Montserrat', sans-serif;
@@ -27,14 +27,14 @@ font-family: 'Montserrat', sans-serif;
 p {
     font-size:1.5em;
     margin-bottom: 3px;
-    color:#ffffff;
+    color:var(--primary-color);
     font-weight: normal;
     padding: 10px;
 }
 h3 {
     font-size:1.5em;
     font-weight: bold;
-    color:#ffffff;
+    color:var(--primary-color);
     margin: 0px;
 }
 h2 {
@@ -68,10 +68,24 @@ header.half-width{
 .message p{
   font-size: 0.70em;
 }
+/***** Dark-Light Mode *******/
+:root {
+  --primary-color:#fff;
+  --secondary-color:#1f202b;
+}
+.light-theme {
+  --primary-color:#1f202b;
+  --secondary-color:#fff;
+}
+#icon {
+  width: 30px;
+  cursor: pointer;
+}
+
 /***** NAVBAR *******/
 nav ul {
   list-style: none;
-  background-color:#1f202b;
+  background-color:var(--secondary-color);
   margin:0px;
   display: flex;
   justify-content:center;
@@ -88,7 +102,7 @@ nav  {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color:var(--primary-color);
   text-transform: lowercase;
   text-align:center;
   font-size:1em;
@@ -141,11 +155,11 @@ nav a {
     
     h3 {
       text-decoration: none;
-      color: #fff;
+      color: var(--primary-color);
     }
     a {
       text-decoration: none;
-      color: #fff;
+      color: var(--primary-color);
     }
     
     #portfolio .one {
@@ -265,7 +279,7 @@ nav a {
     }
 
     #contact h3 {
-    color: #ffffff;
+    color:var(--primary-color);
     font-size:1.5em;
     line-height:15px;
     width:100%;
@@ -275,7 +289,7 @@ nav a {
       }
     
     p  {
-    color:white;
+    color:var(--primary-color);
     font-size:1.5em;
     font-weight: normal;
     margin-top: 5px;
@@ -283,7 +297,7 @@ nav a {
       }
     
     h4 {
-    color: #ffffff;
+    color: var(--primary-color);
     font-size: 1.125em;
     text-align: center;
     font-family: 'Source Code Pro', monospace;
@@ -298,7 +312,7 @@ nav a {
       }
 
     #contact a {
-    color: #fff;
+    color:var(--primary-color);
     text-decoration: none;
       }
   
@@ -437,6 +451,11 @@ height:750px;
 }
 @media only screen and (min-width: 1200px) {
 /*Desktop styles here*/
+
+#icon {
+  width: 30px;
+  cursor: pointer;
+}
 
 .message p{
    font-size:2em;

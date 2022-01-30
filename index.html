@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
+<style>
+</style>
     <body>
   <div class="full-width">
   </div>
@@ -30,6 +32,7 @@
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+        <img src="./img/sun.png" id="icon">
       </nav>
     </div>
  <div class="full-width" id="backpic">
@@ -244,5 +247,18 @@
       <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
     </div>
   </footer>
+  <script>
+
+    var icon = document.getElementById("icon");
+
+    icon.onclick = function () {
+      document.body.classList.toggle("light-theme");
+    if (document.body.classList.contains("light-theme")) {
+      icon.src = "./img/moon.png";
+    } else { 
+      icon.src = "./img/sun.png";
+    }
+    }
+    </script>
  </body>
 </html>
