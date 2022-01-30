@@ -110,7 +110,11 @@ nav a {
   font-family: 'Montserrat', sans-serif;
 
 }
-
+.full-width-nav {
+  position: fixed;
+  width: 100%;
+  background-color:var(--secondary-color) ;
+}
 /****** GRID ******/
 
 .full-width {
