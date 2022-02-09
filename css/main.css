@@ -162,6 +162,7 @@ nav a {
       color: var(--primary-color);
     }
     a {
+      font-style: normal;
       text-decoration: none;
       color: var(--primary-color);
     }
