@@ -219,7 +219,7 @@ nav a {
       }
       
       #about p {
-      color:#1f202b;
+      color:#fff;
       font-size:1.25em;
       font-family: 'Montserrat', sans-serif;
       }
@@ -434,7 +434,7 @@ height:750px;
 
 /****about***/
 #aboutme{
-  background:#fa0075;
+  background:rgb(145, 144, 144);
   }
 
   #contact .third-width {
@@ -503,7 +503,7 @@ display: flex;
 flex-flow: column;
 width: 50%;
 padding-left:3%;
-background:#fa0075;
+background:rgb(145, 144, 144);
 justify-content: space-between;
 }
 
